@@ -1,0 +1,10 @@
+div {
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+    font-family: 'Courier New';
+    text-align: center;
+    margin: 10px auto;
+    box-shadow: 2px 2px 8px black;
+    /* box-shadow takes 4 parameters */
+}

@@ -1,0 +1,13 @@
+/* CSS code Alpha Opacity */
+
+div {
+    height: 200px;
+    width: 200px;
+    background-color: rgba(255, 0, 0, 0.4);
+}
+
+#opacity {
+    background-color: #ffa511;
+    opacity: 0.2;
+    /* It helps to set visibility of an element */
+}

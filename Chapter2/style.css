@@ -1,0 +1,4 @@
+/* Sample of selecting font family for entire page */
+* {
+    font-family: 'Courier New';
+}

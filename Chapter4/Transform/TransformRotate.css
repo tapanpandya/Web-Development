@@ -1,0 +1,57 @@
+/* CSS Transform code */
+
+section {
+    margin-top: 100px;
+}
+
+div {
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    background-color: #7aa874;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+div:nth-of-type(2n) {
+    background-color: #f7db6a;
+}
+
+div:nth-of-type(3n) {
+    background-color: #ebb02d;
+}
+
+/* transform would change the angle of an element on a web page */
+
+#one {
+    transform: rotate(45deg);
+}
+
+/* Translate would resize the element in x-axis and y-axis. */
+
+#two {
+    /* transform: scale(0.5); */
+    transform: scale(0.5, 2);
+    /* scale(x-axis, y-axis); */
+    /* transform: scaleX();
+    transform: scaleY();
+    transform: scaleZ(); */
+}
+
+/* Translate would change the position of an element in x-axis and y-axis. */
+
+#three {
+    transform: translate(100px, 100px);
+    /* transform: translateX(100px);
+       transform: translateY(100px); */
+}
+
+/* skew would change the element in certain degree. */
+
+#four {
+    transform: skew(-30deg);
+}
+
+#five {
+    transform: rotate(30deg) translate(150px);
+}
